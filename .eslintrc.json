@@ -21,6 +21,7 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
+    "no-param-reassign": ["error", { "props": true }],
     "prettier/prettier": "error",
     "import/extensions": [
       "error",
